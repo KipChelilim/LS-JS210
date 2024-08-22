@@ -1,0 +1,32 @@
+  1: false: false || (true && false);
+     true:  true || (1 + 2);
+     3:     (1 + 2) || true;
+     3:     true && (1 + 2);
+     false: false && (1 + 2);
+     true:  (1 + 2) && true;
+     false: (32 * 4) >= 129;
+     false: false !== !true;
+     false: true === 4;
+     true:  false === (847 === '847');
+     false: false === (847 == '847');
+     true:  (!true || (!(100 / 5) === 20) || ((328 / 4) === 82)) || false;
+
+  2: evenorodd.js
+  3: validation.js
+  4. Product2, Product3, and Product not found!
+  5. if_foo.js
+  6. Not empty
+  7. caps.js
+  8. number_range.js
+  9. false
+     true
+     3
+     false
+     3
+     3
+     nothing
+     nothing
+ 10. 5, 7
+     0, 0
+     4, 42
+     3, 42

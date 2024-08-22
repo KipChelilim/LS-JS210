@@ -1,0 +1,10 @@
+1: greeter.js
+2: age.js
+3: Should get an error since foo is not initialized in the outer scope
+4: Should output three messages for Victor then give an error since you can't
+   reassign a constant
+5: Should log 'bar' since foo was initialized outside the block and is available
+   on line 6. It doesn't output 'qux' because a second variable `foo` was
+   initialized within the block and is unavailable outside of that block.
+6: No, constants also have block scope so line 3 initializes a second variable
+   named `FOO` which is not visible outside of the block.

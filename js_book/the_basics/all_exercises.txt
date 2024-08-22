@@ -1,0 +1,20 @@
+ 1: exercise_code.js
+ 2: exercise_code.js
+ 3: 'true'         -> String
+    false          -> Boolean
+    1.5            -> Number
+    2              -> Number
+    undefined      -> Undefined
+    { foo: 'bar' } -> Object
+
+ 4: Implicit String Coercion
+ 5: exercise_code.js
+ 6: exercise_code.js
+ 7: No, it returns undefined.
+ 8: exercise_code.js
+ 9: exercise_code.js
+10: false
+11: 3
+12: false
+    wrong, this is true. string comparison is character by character
+    1 < 9, then nothing else to compared
