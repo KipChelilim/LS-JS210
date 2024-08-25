@@ -1,0 +1,31 @@
+ 1: person.name or person['name']
+ 2: all, but 1, undefined, and true will be converted to string
+ 3: array.js
+ 4: keys.js
+ 5: my_obj.js
+ 6: primitives: 'foo', 3.1415, false, undefined
+    objects: array, function, object
+    neither: foo identifier
+ 7: `forEach` only iterates through own properties (`qux`) while `for/in` will
+    iterate through all including inherited ones.
+ 8: copy.js
+ 9: Hi and hello. Foo the object gets passed and is assigned a new property in
+    the function; this change happens to the object foo represents, so we see
+    this reflected in the main scope. qux the variable does not get passed; the
+    string object 'hello' it is assigned to gets passed to the function and the
+    string is bound to argument2. The function the reassigned argument2, leaving
+    the original string unchanged (primitive value, cannot mutate anyways) and
+    leaving qux referring to the same value as before.
+10: primitives: 6, all but the arrays and object
+    objects: 4, three arrays plus final element object
+11: replace.js
+12: foo_function.js
+13: foo_function2.js
+14: variables: hello, greeting, name, xyzzy, howdy, foo
+    object property names: a, b, c, d
+    primitives: ' ', 1, 2, 3, 4, 5, 'Hi', 'Grace'
+    objects: hello, xyzzy, { a:1, ... }, {}, [3, 4, 5]
+15: variables: bar, foo, qux, foo, arg1, arg2, result
+    object property names: abc..., keys for arrays
+    primitives: 'Hello', 1-6, null, NaN, 'victor', 'antonina', keys
+    objects: bar, { abc:... }, [1, 2, 3,...], [4, 5, 6]

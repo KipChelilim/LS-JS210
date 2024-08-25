@@ -1,0 +1,13 @@
+ 1: [1, 4, 3] because both arrays point to the same object and the assignment on
+    line 3 reassigns the 2nd element of the array.
+ 2: The greeting variable on line 4 of the exercise2.js file has not been
+    initialized
+ 3: Math.sqrt(37)
+ 4: max.js
+ 5: Returns a list of word lengths in reverse order of the original string
+ 6: regex.js
+ 7: Exception handling is the process of managing potential errors in a program
+    to prevent programs from halting when foreseeable exceptions occur
+ 8: nan.js
+ 9: zero.js
+10: '5'

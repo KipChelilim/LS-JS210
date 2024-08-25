@@ -1,0 +1,10 @@
+1: age.js
+2: factorial.js
+3: First, the while condition is an assignment expression, so in each loop
+   counter resets to 1. Second, the break condition on line 7 is when counter is
+   greater than 2, which can't happen because we only increment counter by 1 on
+   line 5. On every loop we fail the break condition (not greater than 2), and
+   then reset counter back to 1.
+4: No error, because the afterthought is optional. Code will output 1 - 5.
+5: random_number_between.js
+6: recursion.js
